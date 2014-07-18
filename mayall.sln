@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mayall", "mayall\mayall.csproj", "{4E5DE01A-BAFA-483C-A2BE-81B0E0F026A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{D592D596-DEAA-4661-A3B9-C243A0595119}"
+	ProjectSection(SolutionItems) = preProject
+		libs\libgsasl-7.dll = libs\libgsasl-7.dll
+		libs\vmime.NET.dll = libs\vmime.NET.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E5DE01A-BAFA-483C-A2BE-81B0E0F026A4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4E5DE01A-BAFA-483C-A2BE-81B0E0F026A4}.Debug|Any CPU.Build.0 = Debug|x86
+		{4E5DE01A-BAFA-483C-A2BE-81B0E0F026A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5DE01A-BAFA-483C-A2BE-81B0E0F026A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
