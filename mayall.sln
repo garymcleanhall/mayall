@@ -1,13 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mayall", "mayall\mayall.csproj", "{4E5DE01A-BAFA-483C-A2BE-81B0E0F026A4}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{D592D596-DEAA-4661-A3B9-C243A0595119}"
 	ProjectSection(SolutionItems) = preProject
 		libs\libgsasl-7.dll = libs\libgsasl-7.dll
 		libs\vmime.NET.dll = libs\vmime.NET.dll
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mayall.cli", "mayall.cli\mayall.cli.csproj", "{59F9F49F-23BF-4B87-AD94-1B5DDF217AC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mayall.commands", "mayall.commands\mayall.commands.csproj", "{65A4CEA0-651A-4713-8239-2987AA125A07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mayall.json", "mayall.json\mayall.json.csproj", "{F3EA17A0-4184-4403-90EF-CDE25FA2356C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mayall.vmime", "mayall.vmime\mayall.vmime.csproj", "{5BBCF027-1F8E-4535-98A6-8CE32037D1A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mayall.contracts", "mayall.contracts\mayall.contracts.csproj", "{B917C8A5-E40A-484E-8396-1A1AE1DF072A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +23,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4E5DE01A-BAFA-483C-A2BE-81B0E0F026A4}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{4E5DE01A-BAFA-483C-A2BE-81B0E0F026A4}.Debug|Any CPU.Build.0 = Debug|x86
-		{4E5DE01A-BAFA-483C-A2BE-81B0E0F026A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E5DE01A-BAFA-483C-A2BE-81B0E0F026A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F9F49F-23BF-4B87-AD94-1B5DDF217AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F9F49F-23BF-4B87-AD94-1B5DDF217AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F9F49F-23BF-4B87-AD94-1B5DDF217AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F9F49F-23BF-4B87-AD94-1B5DDF217AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65A4CEA0-651A-4713-8239-2987AA125A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A4CEA0-651A-4713-8239-2987AA125A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A4CEA0-651A-4713-8239-2987AA125A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A4CEA0-651A-4713-8239-2987AA125A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3EA17A0-4184-4403-90EF-CDE25FA2356C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EA17A0-4184-4403-90EF-CDE25FA2356C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EA17A0-4184-4403-90EF-CDE25FA2356C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EA17A0-4184-4403-90EF-CDE25FA2356C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BBCF027-1F8E-4535-98A6-8CE32037D1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BBCF027-1F8E-4535-98A6-8CE32037D1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BBCF027-1F8E-4535-98A6-8CE32037D1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BBCF027-1F8E-4535-98A6-8CE32037D1A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B917C8A5-E40A-484E-8396-1A1AE1DF072A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B917C8A5-E40A-484E-8396-1A1AE1DF072A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B917C8A5-E40A-484E-8396-1A1AE1DF072A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B917C8A5-E40A-484E-8396-1A1AE1DF072A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
