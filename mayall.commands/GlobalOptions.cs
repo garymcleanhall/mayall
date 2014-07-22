@@ -9,7 +9,7 @@ namespace mayall.commands
             ConfigVerb = new ConfigOptions();
         }
 
-        [VerbOption("config")]
+        [VerbOption("config", HelpText = "Used to configure mayall settings")]
         ConfigOptions ConfigVerb { get; set; }
     }
 }

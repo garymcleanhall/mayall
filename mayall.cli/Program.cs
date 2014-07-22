@@ -17,9 +17,17 @@ namespace mayall.cli
         static void Main(string[] args)
         {
             var options = new GlobalOptions();
-            if (!Parser.Default.ParseArguments(args, options, (verb, subOptions) => commands[verb].Execute(subOptions)))
+            if (!Parser.Default.ParseArgumentsStrict(args, options, DispatchVerbCommand))
             {
                 Environment.Exit(Parser.DefaultExitCodeFail);
+            }
+        }
+
+        private static void DispatchVerbCommand(string verb, object subOptions)
+        {
+            if (commands.ContainsKey(verb))
+            {
+                commands[verb].Execute(subOptions);
             }
         }
     }
